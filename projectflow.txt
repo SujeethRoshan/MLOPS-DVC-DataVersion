@@ -7,7 +7,7 @@
 7. now we tell dvc where our remote data is "dvc remote add -d myremote S3" (just add url instead of S3)
 8. dvc add data - this tells that it will track this folder for any changes.Also it creates a data.dvc file with ID to track with the github.
 9. dvc commit and then dvc push
-10. edit the mycode.py to add a new member
-11. do dvc commit u will see the data.dvc id changed but when u do dvc push then new file will be addded in S3
+10. Edit the mycode.py to add a new member.
+11. Do dvc commit u will see the data.dvc id changed but when u do dvc push then new file will be addded in S3.
 
 
