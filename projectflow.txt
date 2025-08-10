@@ -1,3 +1,6 @@
 1. Create git repo and clone it
 2. create code.py , This script creates a small dataset, optionally adds rows (currently commented), and saves it as a CSV in a data directory.
-3. git add commit push
+3. git add commit push and commit
+4. pip install dvc
+5. dvc init creates .dvc folder and a .dvcignore. (tip: compare to git)
+
